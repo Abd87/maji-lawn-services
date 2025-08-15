@@ -21,8 +21,8 @@ const benefits = [
   },
   {
     icon: TrendingUp,
-    title: 'Increased Property Value',
-    description: 'Well-maintained lawns can increase your property value by 5-15%, making it a smart investment for homeowners.',
+    title: 'Cost Savings',
+    description: 'Regular lawn maintenance prevents costly repairs and keeps your property in top condition year-round.',
   },
   {
     icon: Users,

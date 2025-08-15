@@ -9,16 +9,40 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Maji - Professional Lawn Mowing Services | Port Macquarie & Surrounds',
   description: 'Professional lawn mowing services in Port Macquarie and surrounding areas. Get a free quote today for all your lawn care needs.',
-  keywords: 'lawn mowing, Port Macquarie, garden maintenance, lawn care, mowing services',
+  keywords: 'lawn mowing, Port Macquarie, garden maintenance, lawn care, mowing services, Wauchope, Taree, Forster, Kempsey',
+  authors: [{ name: 'Maji Lawn Services' }],
+  creator: 'Maji Lawn Services',
+  publisher: 'Maji Lawn Services',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
     title: 'Maji - Professional Lawn Mowing Services',
     description: 'Professional lawn mowing services in Port Macquarie and surrounding areas.',
     type: 'website',
     locale: 'en_AU',
+    siteName: 'Maji Lawn Services',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Maji - Professional Lawn Mowing Services',
+    description: 'Professional lawn mowing services in Port Macquarie and surrounding areas.',
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'your-google-verification-code',
   },
 }
 
@@ -36,6 +60,8 @@ export default function RootLayout({
         
         {/* Preload critical resources */}
         <link rel="preload" href="/fonts/inter-var.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />

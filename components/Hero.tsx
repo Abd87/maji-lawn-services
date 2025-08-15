@@ -38,7 +38,7 @@ export default function Hero() {
           {/* Trust Indicators */}
           <div className="flex justify-center items-center space-x-6 mb-8 text-sm text-accent-500">
             <div className="flex items-center space-x-2">
-              <div className="flex">
+              <div className="flex" role="img" aria-label="5 star rating">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
                 ))}

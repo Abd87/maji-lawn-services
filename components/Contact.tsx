@@ -77,7 +77,8 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="quote" className="py-20 bg-white">
+      <div id="contact"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -123,9 +124,16 @@ export default function Contact() {
                     Phone Number *
                   </label>
                   <input
-                    {...register('phone', { required: 'Phone number is required' })}
+                    {...register('phone', { 
+                      required: 'Phone number is required',
+                      pattern: {
+                        value: /^[\+]?[0-9\s\-\(\)]{8,}$/,
+                        message: 'Please enter a valid phone number'
+                      }
+                    })}
                     className="w-full px-4 py-3 border border-accent-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="Your phone number"
+                    type="tel"
                   />
                   {errors.phone && (
                     <p className="text-red-500 text-sm mt-1">{errors.phone.message}</p>

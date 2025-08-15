@@ -32,6 +32,8 @@ export interface QuoteData {
   address?: string
   service?: string
   frequency?: string
+  message?: string
+  paymentMethod?: string
   timestamp?: string
 }
 
