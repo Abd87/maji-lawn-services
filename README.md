@@ -113,3 +113,5 @@ For questions about this website or Maji Lawn Services:
 
 Built with ❤️ for Maji Lawn Services
 
+**Latest Update**: Fixed build configuration for Vercel deployment
+
