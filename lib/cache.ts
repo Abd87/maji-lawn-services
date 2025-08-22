@@ -95,7 +95,3 @@ export const cacheUtils = {
     return cacheManager.get(CACHE_KEYS.USER_QUOTES)
   }
 }
-```
-
-```
-
