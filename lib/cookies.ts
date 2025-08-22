@@ -105,7 +105,4 @@ export const cookieUtils = {
     Cookies.remove(key)
   }
 }
-```
-
-```
 
