@@ -27,7 +27,7 @@ export default function Contact() {
     if (savedQuote) {
       Object.entries(savedQuote).forEach(([key, value]) => {
         if (value && key !== 'timestamp') {
-          setValue(key as keyof QuoteForm, value)
+          setValue(key as keyof QuoteForm, String(value))
         }
       })
     }
