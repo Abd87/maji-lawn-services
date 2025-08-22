@@ -83,3 +83,4 @@ Each quote request includes:
 - Respond to quotes within 24 hours
 - Keep your contact information updated
 - Current phone: +61 480 603 040
+- Current email: Hello@maji.net.au

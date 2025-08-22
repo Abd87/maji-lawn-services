@@ -275,15 +275,29 @@ export default function Contact() {
               </h3>
               
               <div className="space-y-6">
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center">
-                    <Phone className="w-6 h-6 text-primary-600" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-accent-900">Phone</h4>
-                    <p className="text-accent-600">+61 480 603 040</p>
-                  </div>
-                </div>
+                                 <div className="flex items-center space-x-4">
+                   <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center">
+                     <Phone className="w-6 h-6 text-primary-600" />
+                   </div>
+                   <div>
+                     <h4 className="font-semibold text-accent-900">Phone</h4>
+                     <a href="tel:+61480603040" className="text-accent-600 hover:text-primary-600 transition-colors duration-200">
+                       +61 480 603 040
+                     </a>
+                   </div>
+                 </div>
+
+                 <div className="flex items-center space-x-4">
+                   <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center">
+                     <Mail className="w-6 h-6 text-primary-600" />
+                   </div>
+                   <div>
+                     <h4 className="font-semibold text-accent-900">Email</h4>
+                     <a href="mailto:Hello@maji.net.au" className="text-accent-600 hover:text-primary-600 transition-colors duration-200">
+                       Hello@maji.net.au
+                     </a>
+                   </div>
+                 </div>
 
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center">

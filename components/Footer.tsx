@@ -66,10 +66,18 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-6">Contact</h3>
             <ul className="space-y-3">
-              <li className="flex items-center space-x-3">
-                <Phone className="w-4 h-4 text-primary-400" />
-                <span className="text-accent-300">+61 480 603 040</span>
-              </li>
+                             <li className="flex items-center space-x-3">
+                 <Phone className="w-4 h-4 text-primary-400" />
+                 <a href="tel:+61480603040" className="text-accent-300 hover:text-white transition-colors duration-200">
+                   +61 480 603 040
+                 </a>
+               </li>
+               <li className="flex items-center space-x-3">
+                 <Mail className="w-4 h-4 text-primary-400" />
+                 <a href="mailto:Hello@maji.net.au" className="text-accent-300 hover:text-white transition-colors duration-200">
+                   Hello@maji.net.au
+                 </a>
+               </li>
               <li className="flex items-center space-x-3">
                 <MessageCircle className="w-4 h-4 text-primary-400" />
                 <span className="text-accent-300">WhatsApp Available</span>

@@ -71,10 +71,12 @@ export default function Hero() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-accent-600">
-            <div className="flex items-center space-x-2">
-              <Phone className="w-5 h-5 text-primary-600" />
-                              <span>+61 480 603 040</span>
-            </div>
+                         <div className="flex items-center space-x-2">
+               <Phone className="w-5 h-5 text-primary-600" />
+               <a href="tel:+61480603040" className="hover:text-primary-700 transition-colors duration-200">
+                 +61 480 603 040
+               </a>
+             </div>
             <div className="flex items-center space-x-2">
               <MessageCircle className="w-5 h-5 text-primary-600" />
               <span>WhatsApp Available</span>

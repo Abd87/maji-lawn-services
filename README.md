@@ -106,6 +106,7 @@ This project is licensed under the MIT License.
 
 For questions about this website or Maji Lawn Services:
 - Phone: +61 480 603 040
+- Email: Hello@maji.net.au
 - WhatsApp: Available 24/7
 - Service Area: Port Macquarie & 2-hour radius
 
