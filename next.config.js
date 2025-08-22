@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Remove the experimental.appDir as it's no longer needed in Next.js 14
+  // Next.js 14 configuration
+  experimental: {
+    // Enable any experimental features if needed
+  },
+  // Ensure proper handling of static assets
+  images: {
+    domains: [],
+  },
 }
 
 module.exports = nextConfig
