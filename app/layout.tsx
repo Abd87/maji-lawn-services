@@ -77,7 +77,7 @@ export default function RootLayout({
               "name": "Maji Lawn Services",
               "description": "Professional lawn mowing services in Port Macquarie and surrounding areas",
               "url": "https://maji-lawn-services.com",
-              "telephone": "+61416574047",
+              "telephone": "+61480603040",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Port Macquarie",

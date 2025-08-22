@@ -281,7 +281,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-accent-900">Phone</h4>
-                    <p className="text-accent-600">+61 416 574 047</p>
+                    <p className="text-accent-600">+61 480 603 040</p>
                   </div>
                 </div>
 
